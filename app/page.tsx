@@ -5,12 +5,8 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main>
-      <div> 
-        <p>
-          Get started by editing&nbsp;app/page.tsx
-        </p>
-      </div>
+    <main className='bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900'>
+      Home Page
     </main>
   )
 }
